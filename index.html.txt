@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEB STORE</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>LEB STORE</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Tienda</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h2>Bienvenido a LEB STORE</h2>
+      <p>Encuentra los mejores componentes de computadora al mejor precio.</p>
+    </section>
+
+    <section id="shop">
+      <h2>Productos Destacados</h2>
+      <div class="product">
+        <h3>Tarjeta Gráfica RTX 4070</h3>
+        <p>Potente, rápida y lista para gaming extremo.</p>
+      </div>
+      <div class="product">
+        <h3>Procesador Ryzen 7 7800X3D</h3>
+        <p>Rendimiento superior para multitareas y videojuegos.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contáctanos</h2>
+      <p>Correo: soporte@lebstore.com</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 LEB STORE - Todos los derechos reservados</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
